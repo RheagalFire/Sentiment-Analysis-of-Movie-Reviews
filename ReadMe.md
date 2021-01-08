@@ -1,6 +1,6 @@
 ## Sentiment Analysis of Movie Reviews
 
-This [notebook](https://github.com/RheagalFire/Sentiment-Analysis-of-Movie-Reviews/blob/master/Sentiment%20Analysis%20.ipynb) is a demonstration to implent various classifiers to classify the sentiment of a review as **negative** or **posative**.
+This [notebook](https://github.com/RheagalFire/Sentiment-Analysis-of-Movie-Reviews/blob/master/Sentiment%20Analysis%20.ipynb) is a demonstration to implement various classifiers to classify the sentiment of a review as **negative** or **positive**.
 
 ### Tooling
 
@@ -19,8 +19,8 @@ This [notebook](https://github.com/RheagalFire/Sentiment-Analysis-of-Movie-Revie
 
 ### Techniques in Handling Data 
 
-1. The given two **txt** files has to be manually handle to classify them as posative or negative according to the label of filename. 
-2. While reading the file words that are adjectives are only appended to the our `all_words` list. This operation is achieved by using `pos_tag` attribute of NLTK.
+1. The given two **txt** files has to be manually handled to classify them as positive or negative according to the label of file name. 
+2. While reading the file, words that are adjectives are only appended to the our `all_words` list. This operation is achieved by using `pos_tag` attribute of NLTK.
     Example- 
     ```
     from nltk.tokenize import PunktSentenceTokenizer
@@ -35,7 +35,7 @@ This [notebook](https://github.com/RheagalFire/Sentiment-Analysis-of-Movie-Revie
     ```
 ![output](https://github.com/RheagalFire/Images/blob/main/Capture.JPG)
 
-3. Creating featuresets that is of **tuple** datatype. Most common words are selected that are cross-refrenced against occuring words in document to create a boolean feature like below.
+3. Creating featuresets that is of **tuple** datatype. Most common words are selected that are cross-referenced against occurring words in document to create a Boolean feature like below.
 
 ![output 2](https://github.com/RheagalFire/Images/blob/main/Capture2.JPG)
 
