@@ -33,7 +33,6 @@ This [notebook](https://github.com/RheagalFire/Sentiment-Analysis-of-Movie-Revie
         tagged=nltk.pos_tag(words)
         print(tagged) 
     ```
-![output](https://github.com/RheagalFire/Images/blob/main/Capture.JPG)
 
 3. Creating featuresets that is of **tuple** datatype. Most common words are selected that are cross-referenced against occurring words in document to create a Boolean feature like below.
 
